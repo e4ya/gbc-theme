@@ -1,0 +1,21 @@
+{
+  "name": "gbc-theme",
+  "displayName": "gbc_theme",
+  "description": "gbc-vscode-theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gbc-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/gbc-theme-color-theme.json"
+      }
+    ]
+  }
+}
