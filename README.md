@@ -1,16 +1,22 @@
 # gbc-theme README
 
-## Working with Markdown
+背景来源：[girls band cry ガールズ バンド クライ](https://steamcommunity.com/sharedfiles/filedetails/?id=3228185330)
+修改的主题：[tomorrow-night-blue](https://github.com/microsoft/vscode/blob/main/extensions/theme-tomorrow-night-blue/themes/tomorrow-night-blue-color-theme.json)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+##### 背景文件配置：
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-## For more information
+<kbd>Ctrl</kbd>+<kbd>，</kbd>打开设置，搜索`background.style`，选择在 settings.json 中编辑，在此位置粘贴以下内容，记得补上上个 } 的逗号。
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![image.png](https://s2.loli.net/2024/06/20/FWPgKu94yQcnVNp.png)
 
-**Enjoy!**
+'''json
+
+    "background.fullscreen": {
+        "images": ["https://s2.loli.net/2024/06/20/Bg8a1TFsLOmJ3tM.png"], 
+        "opacity": 0.91, // 0.85 ~ 0.95,这是背景的亮度 
+        "size": "cover", 
+        "position": "center", 
+        "interval": 0 
+    }
+'''

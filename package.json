@@ -1,7 +1,7 @@
 {
-  "name": "gbc-theme",
+  "name": "gbc_theme",
   "displayName": "gbc_theme",
-  "description": "gbc-vscode-theme",
+  "description": "gbc_vscode_theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.90.0"
@@ -17,5 +17,9 @@
         "path": "./themes/gbc-theme-color-theme.json"
       }
     ]
-  }
+  },
+    "extensionDependencies": [
+    "oderwat.indent-rainbow",
+    "shalldie.background"
+  ]
 }
